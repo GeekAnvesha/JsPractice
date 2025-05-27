@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    width:100px;
+    height:350px;
+    gap:10px;
+
+    
+}
+.item{
+    width:100px;
+    height:100px;
+    /* background-color: aquamarine; */
+    border:5px solid ;
+}
+
+.btn{
+    /* background-color: cadetblue; */
+
+}
+.btn:active{
+    background-color: blue;
+}
