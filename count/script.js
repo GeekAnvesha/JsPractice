@@ -12,11 +12,19 @@ x++
 
 })
 
+
 sub.addEventListener('click',function(){
+    if(x>0){
 x--
+    }
+    else{
+        alert('counter already is 0')
+    }
 counter.style.backgroundColor='red'
  counter.innerText='Count is : '+x
 })
+
+
 reset.addEventListener('click', function(){
     x=0;
  counter.innerText='Count is : '+x
